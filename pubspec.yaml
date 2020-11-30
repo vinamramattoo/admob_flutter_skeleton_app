@@ -1,0 +1,25 @@
+name: test_ad
+description: A new Flutter application.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_admob: ^0.9.3
+  google_fonts: ^0.3.9
+  cupertino_icons: ^1.0.0
+  firebase_auth: ^0.16.0
+  cloud_firestore: ^0.13.5
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
